@@ -1,3 +1,5 @@
+import "./Hero.css";
+
 const HeroSection = () => {
   return (
     <section className="hero">
@@ -19,15 +21,27 @@ const HeroSection = () => {
         <dl className="hero-stats">
           <div className="stat">
             <dt className="stat-value">312</dt>
-            <dd className="stat-label">Pieces<br />Annually</dd>
+            <dd className="stat-label">
+              Pieces
+              <br />
+              Annually
+            </dd>
           </div>
           <div className="stat">
             <dt className="stat-value">14</dt>
-            <dd className="stat-label">Years in<br />Manufacture</dd>
+            <dd className="stat-label">
+              Years in
+              <br />
+              Manufacture
+            </dd>
           </div>
           <div className="stat">
             <dt className="stat-value">0.8s</dt>
-            <dd className="stat-label">Daily<br />Deviation</dd>
+            <dd className="stat-label">
+              Daily
+              <br />
+              Deviation
+            </dd>
           </div>
         </dl>
       </div>
