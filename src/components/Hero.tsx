@@ -47,7 +47,10 @@ const HeroSection = () => {
       </div>
 
       <div className="hero-image">
-        <img src="./watch.jpg" alt="Close-up of a VAEL mechanical watch face" />
+        <img
+          src="./public/image/watch.png"
+          alt="Close-up of a VAEL mechanical watch face"
+        />
       </div>
     </section>
   );
