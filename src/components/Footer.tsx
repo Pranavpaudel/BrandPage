@@ -10,7 +10,7 @@ const FooterSection = () => {
   };
 
   return (
-    <footer className="site-footer">
+    <footer className="site-footer" id="footer">
       <div className="newsletter">
         <div className="newsletter-content">
           <p className="section-number">§ 05 — Correspondence</p>

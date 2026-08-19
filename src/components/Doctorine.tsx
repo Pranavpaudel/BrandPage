@@ -2,7 +2,7 @@ import "./Doctorine.css";
 
 const Doctorine = () => {
   return (
-    <section className="doctrine">
+    <section className="doctrine" id="heritage">
       <div className="doctrine-intro">
         <p className="section-number">§ 02</p>
         <h2 className="doctrine-title">

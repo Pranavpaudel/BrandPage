@@ -35,7 +35,7 @@ const watches = [
 
 const CollectionSection = () => {
   return (
-    <section className="collection">
+    <section className="collection" id="collection">
       <div className="collection-header">
         <div>
           <p className="section-number">§ 03 — Current Collection</p>

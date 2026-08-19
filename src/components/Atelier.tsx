@@ -9,7 +9,7 @@ const specs = [
 
 const AtelierSection = () => {
   return (
-    <section className="atelier">
+    <section className="atelier" id="atelier">
       <div className="atelier-image">
         <img
           src="/image/movement.png"

@@ -8,16 +8,16 @@ const Navigation = () => {
         <div className="nav-right">
           <ul className="nav-links">
             <li>
-              <a href="#">Collection</a>
+              <a href="#collection">Collection</a>
             </li>
             <li>
-              <a href="#">Atelier</a>
+              <a href="#atelier">Atelier</a>
             </li>
             <li>
-              <a href="#">Heritage</a>
+              <a href="#heritage">Heritage</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#footer">Contact</a>
             </li>
           </ul>
 
