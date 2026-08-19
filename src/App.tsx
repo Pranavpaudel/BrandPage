@@ -1,7 +1,10 @@
 import Navigation from "./components/Navigation";
 import "./App.css";
 import HeroSection from "./components/Hero";
-import Doctorine from "./components/Doctorine"
+import Doctorine from "./components/Doctorine";
+import Collection from "./components/Collection";
+import Atelier from "./components/Atelier";
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -9,6 +12,9 @@ function App() {
       <Navigation />
       <HeroSection />
       <Doctorine />
+      <Collection />
+      <Atelier />
+      <Footer />
     </div>
   );
 }

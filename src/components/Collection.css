@@ -1,0 +1,159 @@
+.collection {
+  background-color: #0a0a0a;
+  color: #f5f3ef;
+  padding: 96px 72px;
+}
+
+.collection-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 48px;
+}
+
+.section-number {
+  font-family: "Courier New", ui-monospace, monospace;
+  font-size: 11px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #8a8a86;
+  margin: 0 0 24px;
+}
+
+.collection-title {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 1.25;
+  margin: 0;
+  color: #f5f3ef;
+}
+
+.collection-title em {
+  font-style: italic;
+  font-weight: 300;
+}
+
+.collection-link {
+  font-family: "Courier New", ui-monospace, monospace;
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #b8842f;
+  text-decoration: none;
+  border-bottom: 1px solid #b8842f;
+  padding-bottom: 4px;
+  white-space: nowrap;
+}
+
+.collection-link:hover {
+  opacity: 0.8;
+}
+
+.watch-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background-color: #232320;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.watch-card {
+  background-color: #0a0a0a;
+  display: flex;
+  flex-direction: column;
+}
+
+.watch-image {
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+}
+
+.watch-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: grayscale(0.1) contrast(1.05);
+}
+
+.watch-info {
+  padding: 32px;
+}
+
+.watch-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 24px;
+}
+
+.watch-name {
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 400;
+  font-size: 26px;
+  color: #f5f3ef;
+  margin: 0;
+}
+
+.watch-price {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 14px;
+  color: #b3b1ac;
+  margin: 0;
+}
+
+.watch-divider {
+  border: none;
+  border-top: 1px solid #232320;
+  margin: 0 0 24px;
+}
+
+.watch-specs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 16px;
+  margin: 0 0 32px;
+}
+
+.spec-label {
+  font-family: "Courier New", ui-monospace, monospace;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #8a8a86;
+  margin: 0 0 8px;
+}
+
+.spec-value {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 14px;
+  color: #d8d6d1;
+  margin: 0;
+}
+
+.watch-ref {
+  font-family: "Courier New", ui-monospace, monospace;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #55554f;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .collection {
+    padding: 56px 28px;
+  }
+
+  .collection-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+
+  .watch-grid {
+    grid-template-columns: 1fr;
+  }
+}

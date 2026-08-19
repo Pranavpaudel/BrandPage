@@ -1,0 +1,159 @@
+.site-footer {
+  background-color: #0a0a0a;
+  color: #f5f3ef;
+}
+
+.newsletter {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  padding: 96px 72px 64px;
+}
+
+.section-number {
+  font-family: "Courier New", ui-monospace, monospace;
+  font-size: 11px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #8a8a86;
+  margin: 0 0 24px;
+}
+
+.newsletter-title {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 1.25;
+  margin: 0 0 24px;
+  color: #f5f3ef;
+}
+
+.newsletter-title em {
+  font-style: italic;
+  font-weight: 300;
+}
+
+.newsletter-paragraph {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #b3b1ac;
+  max-width: 340px;
+  margin: 0;
+}
+
+.newsletter-form-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-label {
+  font-family: "Courier New", ui-monospace, monospace;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #8a8a86;
+  margin: 0 0 12px;
+  display: block;
+}
+
+.newsletter-form {
+  display: flex;
+  border-bottom: 1px solid #3a3a37;
+  padding-bottom: 12px;
+}
+
+.newsletter-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #f5f3ef;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 15px;
+}
+
+.newsletter-input::placeholder {
+  color: #55554f;
+}
+
+.newsletter-submit {
+  background-color: #b8842f;
+  color: #0a0a0a;
+  border: none;
+  padding: 10px 20px;
+  font-family: "Courier New", ui-monospace, monospace;
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.newsletter-submit:hover {
+  opacity: 0.9;
+}
+
+.form-fineprint {
+  font-family: "Courier New", ui-monospace, monospace;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #55554f;
+  margin: 12px 0 0;
+}
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 72px;
+  border-top: 1px solid #232320;
+}
+
+.footer-logo {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin: 0;
+  color: #f5f3ef;
+}
+
+.footer-copyright {
+  font-family: "Courier New", ui-monospace, monospace;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  color: #55554f;
+  margin: 0;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 28px;
+}
+
+.footer-nav a {
+  font-family: "Courier New", ui-monospace, monospace;
+  font-size: 11px;
+  letter-spacing: 0.5px;
+  color: #b3b1ac;
+  text-decoration: none;
+}
+
+.footer-nav a:hover {
+  color: #f5f3ef;
+}
+
+@media (max-width: 900px) {
+  .newsletter {
+    grid-template-columns: 1fr;
+    padding: 56px 28px 40px;
+    gap: 40px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 16px;
+    padding: 28px;
+    text-align: center;
+  }
+}
